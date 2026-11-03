@@ -1,0 +1,17 @@
+{
+  "name": "gst-redis-mongodb-gtfs-benchmark",
+  "version": "1.0.0",
+  "description": "Checkpoint - Application-Based Benchmarking on Redis and MongoDB for Trip Planning using GTFS Data",
+  "main": "src/benchmark.js",
+  "scripts": {
+    "generate": "node src/generateData.js",
+    "benchmark": "node src/benchmark.js",
+    "test": "node tests.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "mongodb": "^6.9.0",
+    "redis": "^4.7.0"
+  },
+  "license": "ISC"
+}

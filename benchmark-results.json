@@ -1,0 +1,26 @@
+{
+  "generatedAt": "2026-11-03T17:11:22.798Z",
+  "datasetSize": {
+    "stops": 150,
+    "routes": 20,
+    "trips": 300
+  },
+  "iterations": 200,
+  "results": {
+    "tripsByRoute": {
+      "mongoAvgMs": 0.450164375,
+      "redisAvgMs": 0.15980125,
+      "redisSpeedup": 2.817026619003293
+    },
+    "nextTripAfter": {
+      "mongoAvgMs": 0.263483125,
+      "redisAvgMs": 0.106886665,
+      "redisSpeedup": 2.4650701282522003
+    },
+    "tripDetails": {
+      "mongoAvgMs": 0.206760835,
+      "redisAvgMs": 0.11039875,
+      "redisSpeedup": 1.8728548556935654
+    }
+  }
+}
